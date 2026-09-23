@@ -1,6 +1,9 @@
 import Image from "next/image";
 import React from "react";
-
+export const metadata = {
+  title: "about section ",
+  description: "...",
+};
 const AboutPage = () => {
   return (
     <div>
